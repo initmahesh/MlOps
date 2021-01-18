@@ -85,6 +85,7 @@ def main():
     assert "result" in output
     assert len(output["result"]) == output_len
     print("Smoke test successful.")
+    print(output)
 
 
 if __name__ == '__main__':
